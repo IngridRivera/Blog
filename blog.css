@@ -1,0 +1,45 @@
+body {
+	/*border:10px solid #6EC5B8;*/
+	padding: 20px;
+	width: 700px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+#borderimg1 {
+    border: 20px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg) 50 round; /* Opera 11-12.1 */
+    border-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg) 50 round;
+}
+
+h2 {
+	font-family: Arial;
+	color: #FFAC00;
+	text-transform: uppercase;
+	font-size:12px;
+	letter-spacing: 3px;
+}
+
+h1{
+	font-family: bentham;
+	color:#DC5C05;
+	font-size: 50px;
+}
+
+.line{
+	border-left: 5px solid rgba(67,202,187,.5);
+	padding-left: 5px;
+}
+
+p{
+	font-family: Open Sans;
+	font-size: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(67,202,187), rgba(0, 0, 0, 0));
+}
