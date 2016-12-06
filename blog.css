@@ -1,17 +1,9 @@
 body {
-	/*border:10px solid #6EC5B8;*/
+	border:15px solid #6EC5B8;
 	padding: 20px;
 	width: 700px;
 	margin:0 auto;
 	margin-top: 10px;
-}
-
-#borderimg1 {
-    border: 20px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg) 50 round; /* Safari 3.1-5 */
-    -o-border-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg) 50 round; /* Opera 11-12.1 */
-    border-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg) 50 round;
 }
 
 h2 {
